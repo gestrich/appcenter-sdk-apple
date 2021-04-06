@@ -28,7 +28,7 @@ let package = Package(
             targets: ["AppCenterDistribute"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/microsoft/PLCrashReporter.git", .upToNextMinor(from: "1.8.0")),
+        .package(url: "https://github.com/gestrich/plcrashreporter.git", .revision("99f1a46d49b1b3663e67174719e0bb2135c6b5bb")),
     ],
     targets: [
         .target(
